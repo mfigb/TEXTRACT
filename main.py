@@ -24,3 +24,5 @@ def extract_text_from_image(image_path):
 
 if __name__ == "__main__":
     extract_text_from_image('material_escolar.jpeg')
+
+
