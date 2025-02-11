@@ -15,3 +15,15 @@ C:\Users\usuario>aws --version
 aws-cli/2.23.13 Python/3.12.6 Windows/10 exe/AMD64
 
 Configurar na conta da AWS um usuário IAM com acesso ao Textract
+
+#  Comandos necessários para instalação e configuração dos pacotes e ferramentas essenciais (windows - vscode - python).
+
+pip install boto3 mypy-boto3 => SDK oficial da AWS para Python, o qual fornece uma interface para interagir com os serviços da AWS.
+
+pip install mypy => Ferramenta de verificação de tipos estáticos para Python que facilita a identificação de erros antes da execução do programa. 
+
+python -m pip install "boto3-stubs[textract]" => Pacote que fornece anotações de tipo para o boto3. A opção [textract] instala as anotações de tipo para o serviço textract da AWS.
+
+pip install dmypy "[daemon]" => Ferramenta que permite rodar o mypy em modo daemon, ou seja, em segundo plano.
+
+pip install virtualenv => Instala o pacote virtualenv, que é uma ferramenta essencial para o gerenciamento de ambientes virtuais em Python.
